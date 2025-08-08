@@ -37,14 +37,65 @@ Testing was done using **1,000 records** per algorithm.
 ---
 
 ## How to Reproduce
-1. Clone this repository:
+1. Install Python 3.x and MySQL 8.0.
+2. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/lightweight-encryption-db-tests.git
    cd lightweight-encryption-db-tests
 
-requirements.txt
+3. Install Python dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+
+4. Import the schema into MySQL:
+
+bash
+Copy
+Edit
+mysql -u root -p < schema.sql
+
+
+Usage
+1. Open the desired insertion script (e.g., aes_insert_mysql.py) and confirm the database connection settings.
+
+2. Run the insertion script:
+
+bash
+Copy
+Edit
+python aes_insert_mysql.py
+
+3. Run the matching decryption script (e.g., aes_decrypt_mysql.py).
+
+4. View the decrypted results in the console and JOIN query outputs.
+
+5. Screenshots for each test are stored in /results.
+
+pip install -r requirements.txt
 mysql-connector-python
 cryptography
 faker
 pyascon
+
+mysql -u root -p < schema.sql
+
+
+License
+This repository is provided for academic use only as part of a Database Management Systems course project.
+You are free to reference and adapt the code for educational purposes with proper attribution.
+
+Citation
+If you use this repository in your academic work, please cite:
+Bhagvanth Kumeresh, "Lightweight Encryption Performance Evaluation on MySQL", 2025.
+
+
+---
+
+If you paste this directly in your README.md and commit it, your repo will look **clean, professional, and ready for your report**.  
+
+Do you want me to also create the **performance Excel** in `/performance` so the table in the README links to an actual file? That will make your repo look even more polished.
+
 
