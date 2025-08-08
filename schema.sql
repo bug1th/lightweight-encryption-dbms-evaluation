@@ -12,3 +12,5 @@ CREATE TABLE user_logs (
     sensitive_data BLOB,
     nonce VARBINARY(255)
 );
+
+mysql -u root -p < schema.sql
