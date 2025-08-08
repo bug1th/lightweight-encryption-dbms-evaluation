@@ -41,3 +41,10 @@ Testing was done using **1,000 records** per algorithm.
    ```bash
    git clone https://github.com/yourusername/lightweight-encryption-db-tests.git
    cd lightweight-encryption-db-tests
+
+requirements.txt
+mysql-connector-python
+cryptography
+faker
+pyascon
+
