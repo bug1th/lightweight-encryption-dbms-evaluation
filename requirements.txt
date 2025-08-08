@@ -1,0 +1,7 @@
+mysql-connector-python
+cryptography
+faker
+pyascon
+
+
+pip install -r requirements.txt
