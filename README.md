@@ -94,8 +94,4 @@ Bhagvanth Kumeresh, "Lightweight Encryption Performance Evaluation on MySQL", 20
 
 ---
 
-If you paste this directly in your README.md and commit it, your repo will look **clean, professional, and ready for your report**.  
-
-Do you want me to also create the **performance Excel** in `/performance` so the table in the README links to an actual file? That will make your repo look even more polished.
-
 
